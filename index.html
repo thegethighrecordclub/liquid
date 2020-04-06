@@ -18,18 +18,13 @@
 
         <script type="text/javascript" src="dat.gui.min.js"></script>
         <style>
-            @font-face {
-                font-family: 'iconfont';
-                src: url('iconfont.ttf') format('truetype');
-            }
-
             * {
                 user-select: none;
             }
 
             html, body {
                 overflow: hidden;
-                background-color: #000;
+                background-color: magenta;
             }
 
             body {
@@ -42,6 +37,21 @@
             canvas {
                 width: 100%;
                 height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .info {
+                color: blue;
+                font-family: 'Arial';
+                padding-top: 20px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                text-align: center;
+                width: 100%;
+                margin: auto;
             }
 
         </style>
@@ -51,6 +61,19 @@
     </head>
     <body>
         <canvas></canvas>
+        <div class='info'>
+            <p><b>Spectral Nectar</b><br />
+            ✨✨Seattle, WA 🧪✨<br />
+            Psychedelic Light Artist<br />
+            Available for Virtual Parties!<br />
+            <br />
+            <a href='https://instagram.com/spectral.nectar/'>
+                ig: @spectral.nectar
+            </a></br>
+            <email>
+                <a href='mailto: spectral.nectar@gmail.com'>e: spectralnectar@gmail.com</a>
+            </email>
+        </div>
         <script src="./script.js"></script>
     </body>
 </html>
