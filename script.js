@@ -34,7 +34,7 @@ let config = {
     SIM_RESOLUTION: 128,
     DYE_RESOLUTION: 1024,
     CAPTURE_RESOLUTION: 512,
-    DENSITY_DISSIPATION: 0.01,
+    DENSITY_DISSIPATION: 0.2,
     VELOCITY_DISSIPATION: 0.2,
     PRESSURE: 0.8,
     PRESSURE_ITERATIONS: 20,
@@ -45,7 +45,7 @@ let config = {
     COLORFUL: true,
     COLOR_UPDATE_SPEED: 10,
     PAUSED: false,
-    BACK_COLOR: { r: 255, g: 40, b: 64 }, // rgb(255,40,64)
+    BACK_COLOR: { r: 255, g: 0, b: 255 }, // rgb(255,40,64)
     TRANSPARENT: false,
     BLOOM: true,
     BLOOM_ITERATIONS: 8,
